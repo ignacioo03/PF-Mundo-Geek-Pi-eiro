@@ -18,10 +18,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/icon.png",
+      "package": "com.ignacioo03.mundogeekreact",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA_mHeUM2CX5gaEIGuNrmwydw1j6pt4F0M"
+        }
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "77506eed-3f10-4306-854d-7dd0a37750d5"
+      }
+    },
+    "owner": "ignacioo03"
   }
 }
